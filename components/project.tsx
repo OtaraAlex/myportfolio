@@ -38,6 +38,14 @@ export default function Project({
             <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">
               {description}
             </p>
+            <div className="relative mt-4 sm:hidden">
+              <Image
+                src={imageUrl}
+                alt="Project I worked on"
+                quality={100}
+                className="w-full rounded-xl shadow-2xl"
+              />
+            </div>
             <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
               {tags.map((tag, index) => (
                 <li

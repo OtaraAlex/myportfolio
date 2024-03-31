@@ -92,15 +92,16 @@ export default function Intro() {
         </Link>
 
         <a
-            className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-            href="https://drive.google.com/file/d/1mqtwFXULx1sQ-KV7nW09qs5kE5TrDOKg/view?usp=sharing"
-            target="_blank"
+          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
+          href="https://drive.google.com/file/d/1mqtwFXULx1sQ-KV7nW09qs5kE5TrDOKg/view?usp=sharing"
+          target="_blank"
         >
-            View Resume
-            <HiEye className="text-gray-700" />
+          View Resume
+          <HiEye className="opacity-60" />
         </a>
 
         <a
+          aria-label="GitHub"
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://github.com/OtaraAlex"
           target="_blank"
@@ -109,6 +110,7 @@ export default function Intro() {
         </a>
 
         <a
+          aria-label="LinkedIn"
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://linkedin.com/in/alex-otara"
           target="_blank"
@@ -117,6 +119,7 @@ export default function Intro() {
         </a>
 
         <a
+          aria-label="Twitter"
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://twitter.com/OtaraMbeche"
           target="_blank"
@@ -125,6 +128,7 @@ export default function Intro() {
         </a>
 
         <a
+          aria-label="Medium"
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://medium.com/@alexotara"
           target="_blank"

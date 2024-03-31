@@ -6,7 +6,6 @@ import snapvistaImg from "../public/Snapvista.png";
 import eventlyImg from "../public/Evently.png";
 import blogImg from "../public/blog.jpeg";
 import readblendrImg from "../public/ReadBlendr.png";
-import techmartImg from "../public/techmart.png";
 
 export const links = [
   {
@@ -88,7 +87,7 @@ export const projectsData = [
     projectUrl: "https://eventlyyy.vercel.app/",
   },
   {
-    title: "My Blog",
+    title: "Blog",
     description:
       "This is a blog app with admin dashboard that allows users create, publish, and manage articles.",
     tags: ["MERN Stack", "Redux", "Tailwind", "Firebase"],
@@ -105,14 +104,14 @@ export const skillsData = [
   "React",
   "Next.js",
   "Node.js",
-  "Git and GitHub",
-  "Tailwind",
-  "Prisma",
   "MongoDB",
+  "Express",
+  "Tailwind",
+  "Git",
+  "PostgreSQL",
+  "Prisma",
   "Redux",
   "GraphQL",
-  "Express",
-  "PostgreSQL",
   "Python",
   "Django",
   "Framer Motion",
