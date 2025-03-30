@@ -21,26 +21,23 @@ export default function About() {
       <p className="mb-3">
         I am a{" "}
         <span className="font-medium">freelance Web and Mobile Developer</span>{" "}
-        based in Nairobi, Kenya. My expertise lies in{" "}
+        based in Nairobi, Kenya. I specialize in{" "}
         <span className="font-medium">
-          React, Next.js, React Native(Expo), Node.js and TypeScript,
-        </span>{" "}
-        alongside a solid understanding of{" "}
-        <span className="font-medium">Prisma</span>. I also leverage <span className="font-medium">AI-powered
-        tools and methodologies</span> to optimize workflows, enhance user experiences,
-        and create intelligent solutions tailored to modern demands.
-      </p>
-
-      <p>
-        Besides development frameworks, I utilize tools like{" "}
+          React, Next.js, React Native (Expo), Node.js, JavaScript and
+          TypeScript
+        </span>
+        , with a solid grasp of <span className="font-medium">Prisma</span>. I
+        use{" "}
         <span className="font-medium">
-          MongoDB, Neon Serverless and Appwrite
+          MongoDB, Neon Serverless, and Appwrite
         </span>{" "}
-        to streamline backend systems and boost project efficiency.
+        to optimize backend systems and{" "}
+        <span className="font-medium">AI-powered tools</span> to enhance
+        workflows and user experiences.
       </p>
 
       <p className="mb-3">
-        I am a proud graduate of {""}
+        I am a graduate of{" "}
         <a
           className="underline font-semibold"
           href="https://intranet.alxswe.com/certificates/ERXCf5h8H6"
@@ -49,28 +46,23 @@ export default function About() {
         >
           ALX Africa
         </a>
-        , a rigorous, project-based remote learning institution. It emphasized
-        collaborative pair programming and hands-on mastery of various
-        technologies, including{" "}
+        , a project-based remote learning program emphasizing pair programming
+        and hands-on mastery of{" "}
         <span className="font-medium">
-          HTML, CSS, C, JavaScript, Python, React, MySQL and Nginx.
+          HTML, CSS, C, JavaScript, Python, React, MySQL, and Nginx.
         </span>{" "}
-        Working with developers across the continent enriched my skills and
-        deepened my appreciation for teamwork in tech.
+        Collaborating with developers across Africa strengthened my technical
+        and teamwork skills.
       </p>
 
       <p>
         I am actively seeking a{" "}
-        <span className="font-medium">
-          full-time software developer position
-        </span>{" "}
-        where I can contribute my skills, grow within a dynamic team, and create
-        meaningful solutions.
+        <span className="font-medium">full-time software developer role</span>{" "}
+        to contribute, grow, and build impactful solutions.
       </p>
 
       {/* <p>
-        Through my experiences, I discovered my passion for teaching and
-        mentoring others. Currently, I run a{" "}
+        I am passionate about teaching and mentoring. I run a{" "}
         <span className="font-semibold">
           <a
             className="underline"
@@ -81,7 +73,7 @@ export default function About() {
             blog
           </a>{" "}
         </span>
-        where I write technical articles and personal experiences.
+        where I share technical insights and experiences.
       </p> */}
     </motion.section>
   );
