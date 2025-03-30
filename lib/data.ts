@@ -58,7 +58,7 @@ export const experiencesData = [
       "I graduated after 12 months of studying with ALX Africa. I immediately found a job as a front-end developer.",
     icon: React.createElement(LuGraduationCap),
     date: "Aug. 2022- Sept. 2023",
-  },  
+  },
 ] as const;
 
 export const projectsData = [
@@ -66,7 +66,7 @@ export const projectsData = [
     title: "ReadBlendr",
     description:
       "A platform for authors to publish and sell their books. It also acts as a marketplace for readers to buy and read.",
-    tags: ["Next.js", "Tailwind", "MongoDB",  "Typescript", "Clerk", "Stripe"],
+    tags: ["Next.js", "Tailwind", "MongoDB", "Typescript", "Clerk", "Stripe"],
     imageUrl: readblendrImg,
     projectUrl: "https://readblendr.vercel.app",
   },
@@ -74,7 +74,14 @@ export const projectsData = [
     title: "SnapVista",
     description:
       "A Software-as-a-Service application with AI features and a payments & credits system where one can manipulate images.",
-    tags: ["Cloudinary AI", "Next.js", "Tailwind", "MongoDB", "Clerk", "Stripe"],
+    tags: [
+      "Cloudinary AI",
+      "Next.js",
+      "Tailwind",
+      "MongoDB",
+      "Clerk",
+      "Stripe",
+    ],
     imageUrl: snapvistaImg,
     projectUrl: "https://snapvistaa.vercel.app",
   },
@@ -82,18 +89,18 @@ export const projectsData = [
     title: "Evently",
     description:
       "An event management application where one can create and book events. Events are filtered by category.",
-    tags: ["Next.js", "Tailwind", "MongoDB",  "Typescript", "Clerk", "Stripe"],
+    tags: ["Next.js", "Tailwind", "MongoDB", "Typescript", "Clerk", "Stripe"],
     imageUrl: eventlyImg,
     projectUrl: "https://eventlyyy.vercel.app/",
   },
-  {
-    title: "Blog",
-    description:
-      "This is a blog app with admin dashboard that allows users create, publish, and manage articles.",
-    tags: ["MERN Stack", "Redux", "Tailwind", "Firebase"],
-    imageUrl: blogImg,
-    projectUrl: "https://mernbloggg.onrender.com",
-  },
+  // {
+  //   title: "Blog",
+  //   description:
+  //     "This is a blog app with admin dashboard that allows users create, publish, and manage articles.",
+  //   tags: ["MERN Stack", "Redux", "Tailwind", "Firebase"],
+  //   imageUrl: blogImg,
+  //   projectUrl: "https://mernbloggg.onrender.com",
+  // },
 ] as const;
 
 export const skillsData = [
