@@ -26,12 +26,17 @@ export default function About() {
           React, Next.js, React Native(Expo), Node.js and TypeScript,
         </span>{" "}
         alongside a solid understanding of{" "}
-        <span className="font-medium">Prisma</span>. Besides development
-        frameworks, I leverage tools like{" "}
+        <span className="font-medium">Prisma</span>. I also leverage <span className="font-medium">AI-powered
+        tools and methodologies</span> to optimize workflows, enhance user experiences,
+        and create intelligent solutions tailored to modern demands.
+      </p>
+
+      <p>
+        Besides development frameworks, I utilize tools like{" "}
         <span className="font-medium">
           MongoDB, Neon Serverless and Appwrite
         </span>{" "}
-        to optimize backend systems and enhance project efficiency.
+        to streamline backend systems and boost project efficiency.
       </p>
 
       <p className="mb-3">
