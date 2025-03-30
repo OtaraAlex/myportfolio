@@ -19,20 +19,23 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I am a <span className="font-medium">Full Stack Developer</span> based
-        in Nairobi, Kenya. I have a keen interest in{" "}
+        I am a{" "}
+        <span className="font-medium">freelance Web and Mobile Developer</span>{" "}
+        based in Nairobi, Kenya. My expertise lies in{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB.
+          React, Next.js, React Native(Expo), Node.js and TypeScript,
         </span>{" "}
-        I am also familiar with{" "}
-        <span className="font-medium">TypeScript and Prisma</span> and always
-        eager to learn new technologies. I'm in search of a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        alongside a solid understanding of{" "}
+        <span className="font-medium">Prisma</span>. Besides development
+        frameworks, I leverage tools like{" "}
+        <span className="font-medium">
+          MongoDB, Neon Serverless and Appwrite
+        </span>{" "}
+        to optimize backend systems and enhance project efficiency.
       </p>
 
       <p className="mb-3">
-        I graduated from {""}
+        I am a proud graduate of {""}
         <a
           className="underline font-semibold"
           href="https://intranet.alxswe.com/certificates/ERXCf5h8H6"
@@ -41,15 +44,26 @@ export default function About() {
         >
           ALX Africa
         </a>
-        , a remote learning institution, where studying was project-based and by
-        pair programming. We worked on different technologies like{" "}
+        , a rigorous, project-based remote learning institution. It emphasized
+        collaborative pair programming and hands-on mastery of various
+        technologies, including{" "}
         <span className="font-medium">
-          HTML, CSS, C, JavaScript, Python, React, MySQL and Nginx
+          HTML, CSS, C, JavaScript, Python, React, MySQL and Nginx.
         </span>{" "}
-        and collaborated with developers across the continent.
+        Working with developers across the continent enriched my skills and
+        deepened my appreciation for teamwork in tech.
       </p>
 
       <p>
+        I am actively seeking a{" "}
+        <span className="font-medium">
+          full-time software developer position
+        </span>{" "}
+        where I can contribute my skills, grow within a dynamic team, and create
+        meaningful solutions.
+      </p>
+
+      {/* <p>
         Through my experiences, I discovered my passion for teaching and
         mentoring others. Currently, I run a{" "}
         <span className="font-semibold">
@@ -63,7 +77,7 @@ export default function About() {
           </a>{" "}
         </span>
         where I write technical articles and personal experiences.
-      </p>
+      </p> */}
     </motion.section>
   );
 }
