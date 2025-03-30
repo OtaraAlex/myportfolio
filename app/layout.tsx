@@ -1,3 +1,5 @@
+import { Analytics } from "@vercel/analytics/react"
+
 import Header from "@/components/header";
 import "./globals.css";
 import { Inter } from "next/font/google";
@@ -10,8 +12,8 @@ import { Toaster } from "react-hot-toast";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Alex | Personal Portfolio",
-  description: "Alex is a full-stack developer with 2 years of experience.",
+  title: "Alex Otara | Portfolio",
+  description: "Alex is a full-stack software developer with over 3 years of experience.",
 };
 
 export default function RootLayout({
@@ -37,6 +39,8 @@ export default function RootLayout({
             <ThemeSwitch />
           </ActiveSectionContextProvider>
         </ThemeContextProvider>
+
+        <Analytics />
       </body>
     </html>
   );
